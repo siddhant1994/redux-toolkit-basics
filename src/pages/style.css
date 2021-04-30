@@ -1,0 +1,38 @@
+.playerlist__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.playerlist__item {
+  padding: 10px;
+  background-color: #55a2a2;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: solid 1px gray;
+  font-family: fantasy;
+  font-size: 18px;
+  max-width: 50vw;
+  position: relative;
+}
+.playerlist__item > span {
+  padding: 10px;
+}
+.playerlist__item__checkbox {
+  position: absolute;
+  right: 0px;
+  top: 4px;
+}
+
+.playerlist__tools {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+
+.playerlist__tools > p {
+  margin-right: 20px;
+}
+
+.playerlist__tools > a {
+  margin-left: 20px;
+}
