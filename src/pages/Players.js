@@ -15,7 +15,7 @@ export default function Players() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchPlayers());
+    if (!_state.players.length) dispatch(fetchPlayers());
   }, []);
 
   const renderPlayersPage = () => {
